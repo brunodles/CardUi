@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <color name="card_background">#e3e3e3</color>
     <color name="card_white">#ffffffff</color>
     <color name="card_shadow">#66666666</color>
@@ -11,6 +10,8 @@
     <dimen name="card_padding">5dp</dimen>
     <dimen name="card_padding_bottom">7dp</dimen>
 
-    <dimen name="card_padding_bottom_total">14dp</dimen>
+    <!--must be 2x of card padding -->
     <dimen name="card_padding_total">10dp</dimen>
+    <!--must be 2x of card padding bottom -->
+    <dimen name="card_padding_bottom_total">14dp</dimen>
 </resources>

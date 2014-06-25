@@ -12,9 +12,8 @@
         android:left="@dimen/card_padding"
         android:right="@dimen/card_padding"
         android:top="@dimen/card_padding">
-        <shape android:shape="rectangle" >
+        <shape android:shape="rectangle">
             <corners android:radius="@dimen/corner_radius" />
-
             <solid android:color="@color/card_shadow" />
         </shape>
     </item>
@@ -36,6 +35,4 @@
                 />
         </shape>
     </item>
-
-
 </layer-list>
